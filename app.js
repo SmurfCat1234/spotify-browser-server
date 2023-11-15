@@ -10,7 +10,9 @@ var indexRouter = require('./routes/index');
 var app = express();
 
 //Specify that connections from localhost:4200 (the client app) are allowed
-app.use(cors('http://localhost:4200'));
+//app.use(cors('http://localhost:4200'));
+
+app.use(cors('https://smurfcat1234.github.io/spotify-browser/'));
 app.use(logger('dev'));
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
