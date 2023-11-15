@@ -8,8 +8,8 @@ var loadedFiles = false;
 
 //Make sure to set the redirect URI in the Spotify app you create!
 var redirect_uri = 'https://spotify-browser-server-production.up.railway.app/callback';
-var my_client_id = null;
-var my_client_secret = null;
+var my_client_id = '512a99b8dcea4e31b0d39f1897932da1';
+var my_client_secret = 'b3fb4641ed9e4b9ba4ffbfb40b2dccee';
 
 var access_token = null;
 var refresh_token = null;
