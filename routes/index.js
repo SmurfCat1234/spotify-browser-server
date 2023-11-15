@@ -13,7 +13,7 @@ var my_client_secret = 'b3fb4641ed9e4b9ba4ffbfb40b2dccee';
 
 var access_token = null;
 var refresh_token = null;
-var client_uri = 'https://smurfcat1234.github.io/spotify-browser/';
+var client_uri = 'https://smurfcat1234.github.io/spotify-browser';
 
 function refresh() {
 	const params = new URLSearchParams();
