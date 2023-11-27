@@ -11,8 +11,8 @@ var redirect_uri = 'https://spotify-browser-server-production.up.railway.app/cal
 var my_client_id = null;
 var my_client_secret = null;
 
-var access_token = null;
-var refresh_token = null;
+var access_token = "BQD1UZZ11hoaBJANyK46QJhlFY4x9RA8lBDIRC37WXwplXRg5OQsAYMBDmYqdFadBEzjp1n55mOFH4DRhM2yN3LXlSsSqb6DDYHxtz1ME6l5NaEK_KP-7nrPoCkeRhFNQfSnCnNgfchRez1RT3kcK4T0DMPOBPYO9Z9AJ1ji4liA0DO-aCSz1PvNLoA3UGZ43uiw7OJxwFcWBCqW6i_ESQ";
+var refresh_token = "AQC9u71uEeEleiyT5bC3jzZcdpHVR-gsgjjebN5TAo58Zu0DX4oauSZ9DMg5qg_LcUhSRDgNH6TjheW2Z0RGsynrU2KA7tCPNJd4bat9a8WIoUUDXC1tGRcDGEr0Q6F_UvA";
 var client_uri = 'https://smurfcat1234.github.io/spotify-browser';
 
 function refresh() {
